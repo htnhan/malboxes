@@ -13,4 +13,5 @@
 		],
 		"boot_wait": "10s",
 		"disk_size": "{{ disk_size }}",
+        "format": "ova",
 		"output_directory": "builds"

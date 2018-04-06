@@ -33,7 +33,7 @@
                             {% if trial != 'true' %}
                             <Value>Windows 7 PROFESSIONAL</Value>
                             {% else %}
-                            <Value>Windows 7 ENTERPRISE</Value>
+                            <Value>Windows 7 PROFESSIONAL</Value>
                             {% endif %}
                         </MetaData>
                     </InstallFrom>
@@ -45,10 +45,7 @@
             </ImageInstall>
             <UserData>
                 <ProductKey>
-                {% if trial != 'true' %}
-                    <Key>{{ product_key }}</Key>
-                {% endif %}
-                    <WillShowUI>OnError</WillShowUI>
+                    <Key>MRPKT-YTG23-K7D7T-X2JMM-QY7MG</Key>
                 </ProductKey>
                 <AcceptEula>true</AcceptEula>
             </UserData>
